@@ -1,0 +1,11 @@
+basic.showString("\"IoT4Ag!\"")
+basic.forever(function () {
+    cuteBot.colorLight(cuteBot.RGBLights.ALL, 0xffffff)
+    cuteBot.moveTime(cuteBot.Direction.forward, 50, 2)
+    cuteBot.stopcar()
+    basic.pause(2000)
+    cuteBot.moveTime(cuteBot.Direction.left, 25, 0)
+    cuteBot.moveTime(cuteBot.Direction.left, 25, 0)
+    cuteBot.moveTime(cuteBot.Direction.forward, 50, 2)
+    basic.pause(2000)
+})
