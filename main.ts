@@ -4,7 +4,4 @@ basic.forever(function () {
     cuteBot.colorLight(cuteBot.RGBLights.ALL, 0x0000ff)
     cuteBot.moveTime(cuteBot.Direction.forward, 50, 2)
     cuteBot.stopcar()
-    cuteBot.moveTime(cuteBot.Direction.backward, 10, 1)
-    cuteBot.moveTime(cuteBot.Direction.forward, 50, 2)
-    basic.pause(2000)
 })
